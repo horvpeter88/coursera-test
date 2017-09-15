@@ -42,79 +42,70 @@ p {
 	font-family: serif;
 }
 
+.section{
+	position: relative;
+	background-color: grey;
+	margin: auto;
+	
+	float: left;
+	padding: 10px;
+	border: 1px solid black;
+}
+
 @media (min-width: 992px) {
 	.col-l-1 {
-		position: relative;
-		width: 33%;
-		background-color: grey;
 		float: left;
-		margin: auto;
+		width: 33%;
+		position: relative;
 		padding: 10px;
-		border: 1px solid black;
+		
 	}
 
 	.col-l-2 {
-		position: relative;
+		float: left;		
 		width: 33%;
-		background-color: grey;
-		float: left;
-		margin: auto;
+		position: relative;
 		padding: 10px;
-		border: 1px solid black;
 	}
 
 	.col-l-3 {
-		position: relative;
-		width: 33%;
-		background-color: grey;
 		float: left;
-		margin: auto;
+		width: 33%;
+		position: relative;
 		padding: 10px;
-		border: 1px solid black;
 	}
-
-
 
 }
 
 @media (min-width: 768px) and (max-width: 992px){
 	.col-md-1 {
-		position: relative;
-		width: 50%;
-		background-color: grey;
 		float: left;
-		margin: auto;
+		width: 50%;
+		position: relative;
 		padding: 10px;
-		border: 1px solid black;
+		
 	}
 
 	.col-md-2 {
-		position: relative;
+		float: left;		
 		width: 50%;
-		background-color: grey;
-		float: left;
-		margin: auto;
+		position: relative;
 		padding: 10px;
-		border: 1px solid black;
 	}
 
 	.col-md-3 {
-		position: relative;
-		width: 100%;
-		background-color: grey;
 		float: left;
-		margin: auto;
+		width: 100%;
+		position: relative;
 		padding: 10px;
-		border: 1px solid black;
 	}
 }
 
 @media (max-width: 768px){
 	.col-s {
+		float: left;
+		width: 100%;
 		position: relative;
-		background-color: grey;
-		margin: 10px;
 		padding: 10px;
-		border: 1px solid black;
 	}
 }
